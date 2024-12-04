@@ -1,17 +1,4 @@
 [
-    {
-        "id": 1,
-        "testo": "Qual è il colore del cielo?",
-        "opzioni": ["Blu", "Rosso", "Verde", "Giallo"]
-    },
-    {
-        "id": 2,
-        "testo": "Qual è la capitale d'Italia?",
-        "opzioni": ["Roma", "Milano", "Napoli", "Torino"]
-    },
-    {
-        "id": 3,
-        "testo": "Qual è il risultato di 2+2?",
-        "opzioni": ["3", "4", "5", "6"]
-    }
+    { "id": 1, "testo": "Qual è il pianeta più vicino al sole?", "opzioni": ["Mercurio", "Venere", "Terra"] },
+    { "id": 2, "testo": "Qual è la capitale della Francia?", "opzioni": ["Madrid", "Parigi", "Berlino"] }
 ]

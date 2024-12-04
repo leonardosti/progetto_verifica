@@ -1,48 +1,84 @@
-/* Stili generali */
+/* Stile generico per il corpo */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
   text-align: center;
+  background-color: #f4f4f9;
 }
 
+/* Header */
 header {
-  background-color: #4CAF50;
+  background-color: #007bff;
   color: white;
-  padding: 1rem;
+  padding: 20px 0;
 }
 
-main {
-  padding: 2rem;
+header h1 {
+  margin: 0;
 }
 
+/* Container dei bottoni */
 .buttons-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
 }
 
-button {
-  padding: 1rem;
-  font-size: 1rem;
+.button, button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #007BFF;
-  color: white;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
-button:hover {
+.button:hover, button:hover {
   background-color: #0056b3;
 }
 
 #timer {
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Contenuto delle domande */
+#domanda-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  text-align: left;
+}
+
+#risposta-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button[type="button"] {
+  align-self: flex-start;
+  background-color: #28a745;
+}
+
+button[type="button"]:hover {
+  background-color: #218838;
 }

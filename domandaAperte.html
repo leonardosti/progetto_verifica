@@ -9,15 +9,18 @@
 <body>
     <header>
         <h1>Domanda Aperta</h1>
+        <div id="timer">Tempo rimasto: --:--</div>
     </header>
     <main>
         <div id="domanda-container">
             <p id="domanda">Caricamento domanda...</p>
+            <form id="risposta-form">
+                <textarea id="risposta" placeholder="Scrivi la tua risposta qui..."></textarea>
+                <button type="button" id="consegna-domanda">Consegna Risposta</button>
+            </form>
         </div>
-        <form id="risposta-form">
-            <textarea id="risposta" rows="5" placeholder="Scrivi qui la tua risposta"></textarea>
-            <button type="button" id="consegna-domanda">Consegna Risposta</button>
-        </form>
+        <!-- Bottone per tornare alla home -->
+        <a href="index.html" class="button">Torna alla Home</a>
     </main>
     <script src="script.js"></script>
 </body>
