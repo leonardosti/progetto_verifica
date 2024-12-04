@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Verifica</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piattaforma Verifica</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="timer" id="timer">Timer: 0:00</div>
-    
-    <a href="domanda1.html" class="button">Domanda 1</a>
-    <div class="button">Testo 1</div>
-    
-    <a href="domanda2.html" class="button">Domanda 2</a>
-    <div class="button">Testo 2</div>
-    
-    <a href="domanda3.html" class="button">Domanda 3</a>
-    <div class="submit" id="submitButton">Consegna</div>
-  </div>
-
-  <script src="script.js"></script>
+    <header>
+        <h1>Benvenuti sulla piattaforma per la verifica</h1>
+    </header>
+    <main>
+        <div class="buttons-container">
+            <button id="domandaAperta1">Domanda Aperta 1</button>
+            <button id="domandaAperta2">Domanda Aperta 2</button>
+            <button id="domandaAperta3">Domanda Aperta 3</button>
+            <button id="domandaCrocette1">Domanda Crocette 1</button>
+            <button id="domandaCrocette2">Domanda Crocette 2</button>
+            <button id="consegna">Consegna Verifica</button>
+        </div>
+        <div id="timer">Tempo rimasto: 1:30:00</div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
+
