@@ -1,4 +1,0 @@
-[
-    { "id": 1, "testo": "Qual è il pianeta più vicino al sole?", "opzioni": ["Mercurio", "Venere", "Terra"] },
-    { "id": 2, "testo": "Qual è la capitale della Francia?", "opzioni": ["Madrid", "Parigi", "Berlino"] }
-]

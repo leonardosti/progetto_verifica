@@ -1,0 +1,71 @@
+{
+    "domande_aperte": [
+      {
+        "id": "question_1",
+        "domanda": "Qual è la differenza tra hardware e software e come lavorano insieme?"
+      },
+      {
+        "id": "question_2",
+        "domanda": "Come funziona una rete di computer e perché è importante?"
+      },
+      {
+        "id": "question_3",
+        "domanda": "Che cos'è un algoritmo e perché è fondamentale in informatica?"
+      },
+      {
+        "id": "question_4",
+        "domanda": "Quali sono le differenze tra un sistema operativo a 32 bit e uno a 64 bit?"
+      },
+      {
+        "id": "question_5",
+        "domanda": "In che modo la crittografia aiuta a proteggere i dati su internet?"
+      }
+    ],
+    "domande_multipla": [
+        {
+          "domanda": "Cos'è un sistema operativo?",
+          "opzioni": [
+            "Un programma che gestisce l'hardware e il software di un computer",
+            "Un dispositivo per archiviare dati",
+            "Un tipo di linguaggio di programmazione",
+            "Un'applicazione per navigare su internet"
+          ]
+        },
+        {
+          "domanda": "Cos'è un algoritmo?",
+          "opzioni": [
+            "Un insieme di istruzioni per risolvere un problema",
+            "Un tipo di programma antivirus",
+            "Un linguaggio di programmazione",
+            "Un dispositivo di archiviazione dei dati"
+          ]
+        },
+        {
+          "domanda": "Cosa fa un browser?",
+          "opzioni": [
+            "Gestisce l'hardware del computer",
+            "Permette di navigare su Internet",
+            "Memorizza i dati",
+            "Protegge il computer dai virus"
+          ]
+        },
+        {
+          "domanda": "Qual è la funzione di una rete di computer?",
+          "opzioni": [
+            "Permettere la comunicazione tra dispositivi diversi",
+            "Eseguire calcoli complessi",
+            "Gestire i dati all'interno di un sistema operativo",
+            "Memorizzare informazioni in modo sicuro"
+          ]
+        },
+        {
+          "domanda": "Che cos'è il cloud computing?",
+          "opzioni": [
+            "Un programma che consente di navigare su internet",
+            "Un dispositivo che memorizza dati",
+            "Un'applicazione per creare siti web",
+            "Un tipo di linguaggio di programmazione"
+          ]
+        }
+      ]
+  }

@@ -82,3 +82,16 @@ button[type="button"] {
 button[type="button"]:hover {
   background-color: #218838;
 }
+
+#opzioni-container {
+  display: flex;
+  flex-direction: column; /* Aggiunto per disporre le opzioni in verticale */
+}
+
+#opzioni-container label {
+  margin-bottom: 10px; /* Spaziatura tra le opzioni */
+}
+
+#opzioni-container input {
+  margin-right: 10px; /* Spaziatura tra il radio button e il testo */
+}

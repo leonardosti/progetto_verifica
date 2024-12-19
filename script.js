@@ -39,45 +39,4 @@ document.addEventListener('DOMContentLoaded', () => {
             sessionStorage.removeItem(TIMER_KEY); // Reset del timer
         });
     }
-
-    // Funzione per caricare domande dal file JSON
-    function caricaDomande(tipo, id) {
-        const file = tipo === 'aperte' ? './domandeAperte.json' : './domandeCrocette.json';
-
-        fetch(file)
-            .then(response => response.json())
-            .then(data => {
-                const domanda = data.find(d => d.id == id);
-                if (!domanda) {
-                    document.getElementById('domanda').textContent = 'Domanda non trovata!';
-                    return;
-                }
-                document.getElementById('domanda').textContent = domanda.testo;
-
-                if (tipo === 'crocette') {
-                    const opzioniContainer = document.getElementById('opzioni-container');
-                    opzioniContainer.innerHTML = ''; // Pulizia contenitore
-                    domanda.opzioni.forEach(opzione => {
-                        const label = document.createElement('label');
-                        label.innerHTML = `
-                            <input type="radio" name="opzione" value="${opzione}">
-                            ${opzione}
-                        `;
-                        opzioniContainer.appendChild(label);
-                        opzioniContainer.appendChild(document.createElement('br'));
-                    });
-                }
-            })
-            .catch(error => console.error('Errore nel caricamento delle domande:', error));
-    }
-
-    // Verifica la pagina e carica i dati appropriati
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get('id');
-
-    if (window.location.pathname.includes('domandaAperte.html')) {
-        caricaDomande('aperte', id);
-    } else if (window.location.pathname.includes('domandaCrocette.html')) {
-        caricaDomande('crocette', id);
-    }
-});
+})
